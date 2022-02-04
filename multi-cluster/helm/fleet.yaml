@@ -4,6 +4,7 @@ targetCustomizations:
   helm:
     values:
       replication: false
+      serviceType: NodePort
   clusterSelector:
     matchLabels:
       env: dev
